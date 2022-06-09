@@ -5,9 +5,9 @@ public class test2 {
 //        вес
         int weight = 60;
 //        рост
-        int height = 180;
+        double height = 1.75;
 
-        int result =  (height * height) / weight;
+        double result = weight / (height * height);
         System.out.print(result);
 
     }
